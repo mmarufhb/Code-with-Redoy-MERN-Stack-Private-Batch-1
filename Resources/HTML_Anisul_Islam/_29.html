@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>29 No. Videos</title>
+    <style>
+        table,td,th{
+            height: 20px;
+            width: 300px;
+            border: 2px solid black;
+            border-collapse: collapse;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Accessible Table</h1>
+    </header>
+    <main>
+        <table>
+            <caption><b>Students Info</b></caption>
+            <colgroup>
+            <col span="3" style="background-color: burlywood;">
+            </colgroup>
+            <thead>
+                <th scope="col">ID</th>
+                <th scope="col">Name</th>
+                <th scope="col">GPA</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td scope="row">101</td>
+                    <td>Maruf</td>
+                    <td>3.13</td>
+                </tr>
+                <tr>
+                    <td scope="row">102</td>
+                    <td>Fahim</td>
+                    <td>3.68</td>
+                </tr>
+                <tr>
+                    <td scope="row">103</td>
+                    <td>Reza</td>
+                    <td>3.57</td>
+                </tr>
+            </tbody>
+        </table>
+    </main>
+</body>
+</html>

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>30 No. Videos</title>
+</head>
+<body>
+    <h1 align="center" style="background-color: aquamarine;">Form <hr></h1>
+<form>
+    <div><!--Fullanme-->
+        <label for="fullname">Fullname:</label>
+        <input type="text" name="fullname" id="fullname">
+    </div><br>
+    <div><!--Email-->
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email" required>
+    </div><br>
+    <div><!--Password-->
+        <label for="password">Password:</label>
+        <input type="password" name="password" id="password" required>
+    </div><br>
+    <div><!--Date of Birth-->
+        <label for="dob">Date of Birth:</label>
+        <input type="date" name="dob" id="dob">
+    </div><br>
+    <div><!--Attach File-->
+        <label for="photo">Choose your Photo:</label>
+        <input type="file" name="photo" id="photo">
+    </div><br>
+    <div><!--Gender using radio button-->
+        <label for="gender">Gender:</label>
+        <input type="radio" name="gender" id="gender" value="male">Male
+        <input type="radio" name="gender" id="gender" value="female">Female
+    </div><br>
+    <div><!--Religion using checkbox-->
+        <label for="religion">Religion:</label>
+        <input type="checkbox" name="religion" id="muslim" value="muslim" checked>Islam
+        <input type="checkbox" name="religion" id="hindu" value="hindu">Hindu
+        <input type="checkbox" name="religion" id="other" value="other">Other
+    </div><br>
+    <div><!--Department dropbox using select&option-->
+        <label for="department">Department:</label>
+        <select name="department">
+            <option value="ce" selected>CE</option>
+            <option value="cse">CSE</option>
+            <option value="eee">EEE</option>
+        </select>
+    </div><br>
+    <div><!--Message using textarea-->
+        <label for="message">Message:</label><br>
+        <textarea cols="50" rows="5">Type here</textarea>
+    </div><br>
+    <div>
+        <input type="submit" value="Register">
+        <input type="reset" value="Clear">
+    </div>
+</form>
+</body>
+</html>
