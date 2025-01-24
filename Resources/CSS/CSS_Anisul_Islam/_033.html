@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>33 No. Video</title>
+    <style>
+        :root{
+            --primary-color: green;
+            --secondary-color: red;
+        }
+        div{
+            height: 250px;
+            width: 250px;
+        }
+        .div1{
+            background-color: var(--primary-color) ;
+            position: absolute;
+            z-index: 1;
+        }
+        .div2{
+            background-color: var(--secondary-color);
+            position: absolute;
+            left: 150px;
+            top: 150px;
+            z-index: 2;
+        }
+        @media screen and (max-width: 600px){
+            :root{
+                --primary-color: blue;
+                --secondary-color: yellow;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="div1"></div>
+    <div class="div2"></div>
+</body>
+</html>

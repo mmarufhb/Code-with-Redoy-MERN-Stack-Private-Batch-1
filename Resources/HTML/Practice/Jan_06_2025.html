@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>06/01/2025</title>
+  <style>
+    header {
+      text-align: center;
+      background-color: aqua;
+    }
+
+    table,
+    td,
+    th {
+      border: 1px solid purple;
+      border-collapse: collapse;
+    }
+
+    table {
+      text-align: center;
+      margin: auto;
+    }
+
+    table caption {
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+
+    form {
+      margin: 0 25%;
+      background-color: gray;
+      padding: 5px;
+    }
+
+    #button {
+      text-align: center;
+      border-radius: 10px;
+      background-color: blueviolet;
+    }
+    #button:hover{
+      background-color: aqua;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- Heading -->
+  <header>
+    <h1>New Webpage</h1>
+    <p>Revise html</p>
+  </header>
+
+  <!-- Main -->
+  <main>
+    <!-- Table -->
+    <div id="table">
+      <table>
+        <caption>Daily Task</caption>
+
+        <tr>
+          <th>Date</th>
+          <th>Content</th>
+        </tr>
+
+        <tr>
+          <td>01/01/2025 (Wednesday)</td>
+          <td>Meta, favicon</td>
+        </tr>
+
+        <tr>
+          <td>02/01/2025 (Thursday</td>
+          <td rowspan="2">No Study</td>
+        </tr>
+
+        <tr>
+          <td>03/01/2025 (Friday)</td>
+        </tr>
+
+        <tr>
+          <td>04/01/2025 (Saturday)</td>
+          <td>Title, Heading</td>
+        </tr>
+
+      </table>
+    </div>
+    <hr>
+
+    <div id="form">
+      <form action="">
+
+        <div id="name">
+          <label for="name">Name:</label>
+          <input type="text" placeholder="Enter your name">
+        </div> <br>
+
+        <div id="email">
+          <label for="email">E-mail:</label>
+          <input type="email" placeholder="Enter Your email">
+        </div><br>
+
+        <div id="gender">
+          <label for="gender">Gender:</label>
+          <input type="radio">Male
+          <input type="radio">Female
+        </div> <br>
+        <!-- === jgsdfjglkjg === -->
+        <div id="hobby">
+          <label for="hobby">Hobby:</label>
+          <input type="checkbox">Swimming
+          <input type="checkbox">Cricketing
+        </div> <br>
+
+        <div id="department">
+          <label for="department">Department:</label>
+          <select name="department" id="department">
+            <option value="html">HTML</option>
+            <option value="css" selected>CSS</option>
+            <option value="js">JS</option>
+          </select>
+        </div> <br>
+
+        <div id="feedback">
+          <label for="feedback">Feedback:</label><br>
+          <textarea name="feedback" id="feedback"></textarea>
+        </div> <br>
+
+        <div id="button">
+          <input type="submit" value="Register">
+          <input type="reset" value="Clear">
+        </div>
+
+      </form>
+    </div>
+
+    <iframe src="#" frameborder="0"></iframe>
+
+  </main>
+</body>
+
+</html>
