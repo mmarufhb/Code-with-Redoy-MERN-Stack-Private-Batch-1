@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>49 No. Video</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    .header {
+      background-color: coral;
+      color: white;
+      padding: 1% 5%;
+      text-align: center;
+    }
+
+    .nav-menu {
+      padding: 1% 5%;
+      background-color: teal;
+    }
+
+    .nav-menu a {
+      color: white;
+      text-decoration: none;
+      font-size: 1.2rem;
+      padding: 10px;
+      display: block;
+    }
+
+    .main {
+      padding: 1% 5%;
+      background-color: lightgray;
+    }
+
+    .aside {
+      padding: 1% 5%;
+      background-color: lightblue;
+      text-align: center;
+    }
+
+    .footer {
+      background-color: black;
+      color: white;
+      padding: 20px;
+      text-align: center;
+      font-size: 0.8rem;
+    }
+    
+    .row::after {
+      content: "";
+      clear: both;
+      display: table;
+    }
+
+     [class*="col-"] {
+      float: left;
+      padding: 10px;
+    }
+    /* For Mobile */
+    @media screen and (max-width: 600px) {
+      [class*="col-"] {
+        width: 100%;
+      }
+      .nav-menu a {
+        text-align: center;
+    }
+  }
+
+  /* For Tablet */
+  @media screen and (min-width: 600px) {
+    .col-s-1 { width: 8.33%; }
+    .col-s-2 { width: 16.66%; }
+    .col-s-3 { width: 25%; }
+    .col-s-4 { width: 33.33%; }
+    .col-s-5 { width: 41.66%; }
+    .col-s-6 { width: 50%; }
+    .col-s-7 { width: 58.33%; }
+    .col-s-8 { width: 66.66%; }
+    .col-s-9 { width: 75%; }
+    .col-s-10 { width: 83.33%; }
+    .col-s-11 { width: 91.66%; }
+    .col-s-12 { width: 100%; }
+    }
+    
+  /* For Laptop */
+    @media screen and (min-width: 768px) {
+      .col-1 { width: 8.33%; }
+      .col-2 { width: 16.66%; }
+      .col-3 { width: 25%; }
+      .col-4 { width: 33.33%; }
+      .col-5 { width: 41.66%; }
+      .col-6 { width: 50%; }
+      .col-7 { width: 58.33%; }
+      .col-8 { width: 66.66%; }
+      .col-9 { width: 75%; }
+      .col-10 { width: 83.33%; }
+      .col-11 { width: 91.66%; }
+      .col-12 { width: 100%; }
+    }
+
+  </style>
+</head>
+
+<body>
+  <div class="header">
+    <h1>Maruf Bhuiyan</h1>
+  </div>
+
+  <div class="row">
+    <div class="nav-menu col-2 col-s-3">
+      <a href="#">Home</a>
+      <a href="#">Tutorial</a>
+      <a href="#">Contact</a>
+    </div>
+
+    <div class="main col-7 col-s-9">
+      <h1>I am a web designer</h1>
+
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.</p>
+
+      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestiae error cum, possimus minus praesentium
+        officiis.
+        Minus cumque eaque et vero provident dignissimos rem aut dolor? Quod nobis quis laborum asperiores, error et quo
+        at
+        doloribus deleniti exercitationem eum voluptatum recusandae alias nihil facere autem sed reiciendis consequuntur
+        reprehenderit ducimus eius esse doloremque maxime. Repellendus atque excepturi distinctio earum odit, ullam
+        facilis
+        dignissimos non quisquam doloremque blanditiis harum tempore officiis. Numquam debitis sunt accusantium tempora
+        aut
+        vel quidem cupiditate veritatis, ut ea similique pariatur sint dolorum, voluptas unde vitae itaque, dolore quia
+        nobis possimus! Veniam eveniet aliquam perferendis itaque ratione. Sunt?</p>
+
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta nobis officia nostrum suscipit magnam quibusdam
+        harum maiores. Aut, sequi rem? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam nihil
+        sapiente
+        in harum? Itaque consequuntur, quibusdam earum dolorem dolores doloremque ipsum consequatur numquam
+        perspiciatis,
+        aliquid nam nihil quam molestias ullam minima esse explicabo. In aut dolores, doloremque Lorem ipsum dolor sit,
+        amet consectetur adipisicing elit. Ut praesentium natus quo quasi, eveniet debitis distinctio? Consequatur earum
+        pariatur, suscipit quidem iusto unde obcaecati explicabo in doloribus delectus beatae Lorem ipsum dolor sit amet
+        consectetur adipisicing elit. Reiciendis laudantium provident dolor numquam minima similique.</p>
+    </div>
+
+    <div class="aside col-3 col-s-12">
+      <h2>Aside 1</h2>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.</p>
+
+      <h2>Aside 2</h2>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.</p>
+
+      <h2>Aside 3</h2>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.</p>
+
+      <h2>Aside 4</h2>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.</p>
+    </div>
+
+  </div>
+
+
+  <div class="footer">
+    &copy; 2025 Maruf Bhuiyan
+  </div>
+</body>
+
+</html>

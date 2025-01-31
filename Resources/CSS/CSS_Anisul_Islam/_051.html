@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>51 No. Video</title>
+  <style>
+    img {
+      max-width: 200px;
+      height: auto;
+      display: block;
+      margin: 0 auto;
+      margin-top: 50px;
+      border: 5px solid black;
+      border-radius: 50%;
+      position: relative;
+
+      animation-name:img-anim;
+      animation-duration: 3s;
+      /* animation-iteration-count: 2;
+      animation-fill-mode: backwards; */
+      animation-iteration-count: infinite;
+      animation-timing-function: ;
+    }
+    @keyframes img-anim {
+    0% {
+      left: 0;
+      top: 0;
+    }
+    25% {
+      left: 0;
+      top: 100px;
+    }
+    50% {
+      left: 100px;
+      top: 100px;
+    }
+    75% {
+      left: 100px;
+      top: 0;
+    }
+    100% {
+      left: 0;
+      top: 0;
+    }
+  }
+  </style>
+</head>
+<body>
+  <img src="./img.jpg" alt="pic">
+</body>
+</html>
