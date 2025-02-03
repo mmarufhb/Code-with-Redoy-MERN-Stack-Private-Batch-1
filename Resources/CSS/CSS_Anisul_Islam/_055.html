@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>55 No. Video</title>
+  <style>
+    *{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    input{
+      width: 100%;
+      margin: 20px 5px;
+      padding: 5px 10px;
+    }
+    input[type=text] {
+      background-color: darkgray;
+    }
+    #search{
+      background-image: url(./search.png);
+      background-repeat: no-repeat;
+      background-size: 20px 20px;
+      padding: 5px 20px;
+      width: 50%;
+      transition: width 0.5s;
+    }
+    #search:hover{
+      width: 75%;
+    }
+    #search:focus{
+      width: 100%;
+    }
+  </style>
+</head>
+<body>
+  <form action="">
+    <input type="search" name="search" id="search" placeholder=" Search here">
+<p></p>
+    <label for="fname">First Name:</label>
+    <input type="text" name="fname" id="fname" placeholder="First Name">
+  </form>
+
+  <label for="lname">Last Name:</label>
+  <input type="text" name="lname" id="lname" placeholder="Last Name">
+</body>
+</html>
